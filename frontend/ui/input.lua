@@ -26,8 +26,8 @@ local SYN_CONFIG = 1
 local SYN_MT_REPORT = 2
 
 -- For single-touch events (ABS.code).
-local ABS_X = 00
-local ABS_Y = 01
+local ABS_X = 01
+local ABS_Y = 00
 local ABS_PRESSURE = 24
 
 -- For multi-touch events (ABS.code).
@@ -35,8 +35,8 @@ local ABS_MT_SLOT = 47
 local ABS_MT_TOUCH_MAJOR = 48
 local ABS_MT_WIDTH_MAJOR = 50
 
-local ABS_MT_POSITION_X = 53
-local ABS_MT_POSITION_Y = 54
+local ABS_MT_POSITION_X = 54
+local ABS_MT_POSITION_Y = 53
 local ABS_MT_TRACKING_ID = 57
 local ABS_MT_PRESSURE = 58
 
